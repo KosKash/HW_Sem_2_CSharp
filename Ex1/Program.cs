@@ -7,7 +7,7 @@ int Prompt(string message)
     int a = int.Parse(Console.ReadLine());
     return a;
 }
-int num = Prompt("Input number ");
+int num = Prompt("Введите число ");
 int a = num % 100;
 int b = a / 10;
-Console.Write("Second number is - " + b);
+Console.Write("Вторая цифра из данного числа - " + b);
