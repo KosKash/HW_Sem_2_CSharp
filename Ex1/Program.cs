@@ -9,15 +9,18 @@ int Prompt(string message)
 }
 
 int num = Prompt("Введите число ");
-if (num < 100) Console.WriteLine("Введено некоректное число");
-if (num > 1000)
+if (num < 100) 
+{
+    Console.WriteLine("Введено некоректное число");
+    
+} 
+if (num > 99)
 {
     while (num > 1000)
     {
         num = num / 10;
     }
-    int a = num % 100;
-    int b = a / 10;
-    Console.Write("Вторая цифра из данного числа - " + b);
+int a = num % 100;
+int b = a / 10;
+Console.Write("Вторая цифра из данного числа - " + b);
 }
-
