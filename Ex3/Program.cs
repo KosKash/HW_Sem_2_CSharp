@@ -14,8 +14,8 @@ if (num > 100)
     {
         num = num / 10;
     }
-    int result = num%10;
-        Console.WriteLine("Третья цифра от числа - " + result);
+    int result = num % 10;
+    Console.WriteLine("Третья цифра от числа - " + result);
 }
 else
 {
